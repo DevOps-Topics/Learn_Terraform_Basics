@@ -17,7 +17,6 @@ provider "aws" {
 resource "aws_instance" "myec2" {
     ami = ""
     instance_type = "t2.micro"
-    security_groups = 
 
     tags = {
         name = "myec2"
